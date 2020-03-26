@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f5f7fa;
+    padding: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .wrapper {
+    background: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .asidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .my_photo {
+    width: 370px;
+  }
+  .about_me_container {
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 110px;
+  
+  }
+  
+  .contacts_container {
+    margin-left: 41px;
+    margin-right: 40px;
+    margin-top: 57px;
+  }
+  
+  .contacts_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .contacts_link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #b9bdc1;
+    
+  }
+  
+  .contacts_link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .tech_skills_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .tech_skills_container {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+  
+  .tech_skills_item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #f5680a;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .word_tech_skills {
+    color: #b9bdc1;
+  }
+  
+  .for_word_frontent {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
+  .for_word_Me {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #000;
+  }
+  
+  .about_me_many_text {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    width: 100%;
+    max-width: 413px;
+    padding-top: 20px;
+  }
+  
+  .projects_word {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000;
+    margin-top: 64px;
+  }
+  
+  .numbers {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .link_project {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+  }
+  
+   a {
+    text-decoration: none;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .Company {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 18px;
+  }
+  
+  .Company_orange {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #f5680a;
+    margin-top: 18px;
+  }
+  
+  .Date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+  }
+  
+  .about_me_many_text_2 {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    width: 100%;
+    max-width: 537px;
+    padding-left: 20px;
+  }
+  
+  .stick {
+    color: #000
+  }
+  
+  .dots {
+    font-weight: 100;
+  }
