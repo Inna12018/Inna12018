@@ -1,184 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my resume</title>
-    <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
-  </head>
-  <body>
 
-    <!--- main container -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link  href="/path/to/jquery.fancybox.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext"
+    rel="stylesheet">
+</head>
 
-    <div class="wrapper">
-      <aside class="asidebar">
-        <img class="my_photo" src="images/Photo1.jpg" alt="my photo" />
+<body>
 
-        <!--- contacts container -->
+  <!--- main container -->
 
-      
-        <div class="contacts_container">
-          <h3 class="contacts_title">Contacts</h3>
-           <div> 
-            <span class="contacts_link-type">C:</span>
-              <a class="contacts_link" href="tel:380971637573">+38 097 163 75 73</a>
-           </div>       
-           <div>
-            <span class="contacts_link-type">E:</span>
-              <a class="contacts_link" href="mailto:inna12018@i.ua"
-              ><span class="underline">inna12018@i.ua</span></a
-            >
-           </div>
-        </div>
+  <div class="wrapper">
+    <aside class="asidebar">
+      <img class="my_photo" src="images/Photo1.jpg" alt="my photo" />
 
-        <!--- Tech skills container -->
+      <!--- contacts container -->
 
-        <div class="tech_skills_container">
-          <h3 class="tech_skills_title">Tech skills</h3>
 
-          <ul>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">HTML5</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">CSS3</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">GIT</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">WebPack</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">JavaScript</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">React.js</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">Node.js</span></li>
-          </ul>
-        </div>
-
-        <!--- Soft skills container -->
-
-        <div class="tech_skills_container">
-          <h3 class="tech_skills_title">Soft Skills</h3>
-
-          <ul>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">Scrum</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">Agile</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">GTD</span></li>
-            <li class="tech_skills_item">
-              <span class="word_tech_skills">Teamwork</span></li>
-          </ul>
-        </div>
-    
-      </aside>
-    
-      <!--- about me container -->
-
-      <div class="about_me_container">
-        
-        <!--- about me main info -->
-
+      <div class="contacts_container">
+        <h3 class="contacts_title">Contacts</h3>
         <div>
-          <h2 class="for_word_frontent">Front-End Developer</h2>
-          <h1 class="for_word_Me">Inna Drabchuk</h1>
-          <p class="about_me_many_text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
-          </p>
+          <span class="contacts_link-type">C:</span>
+          <a class="contacts_link" href="tel:380971637573">+38 097 163 75 73</a>
         </div>
-
-        <!--- projects container -->
-
         <div>
-          <h3 class="projects_word">Projects</h3>
-          <ol class="numbers" >
-            <li>
-              <a href="https://inna12018.github.io/Tesla_project/"
-                ><span class="link_project">https://inna12018.github.io/Tesla_project/<span class="dots">....................................................</span></span></a
-              >
-              <span>[<span class="link_project"> HTML5, CSS3 </span>]</span>
-            </li>
-
-            <li>
-              <a href="https://inna12018.github.io/HTML_COURSE/"
-                ><span class="link_project">https://inna12018.github.io/HTML_COURSE/<span class="dots">..............................................</span></span></a
-              >
-              <span>[<span class="link_project"> RG </span>]</span>
-            </li>
-
-            <li>
-              <a href="https://inna12018.github.io/snakeJsGame/"
-                ><span class="link_project">https://inna12018.github.io/snakeJsGame/<span class="dots">..................................................</span></span></a
-              >
-              <span>[<span class="link_project"> React.js, Node.js </span>]</span>
-            </li>
-          </ol>
-        </div>
-
-        <!--- Work experience conteiner -->
-
-        <div>
-          <h3 class="projects_word">Work Experience</h3>
-
-          <!--Company 1-->
-
-          <div>
-            <h4 class="Company">Economist <span class="Company_orange">Alef</span></h4>
-            <span class="Date">October 2018 - up to now <span class="stick">|</span> Ukraine</span>
-            <ul class="about_me_many_text_2">
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Risus commodo viverra maecenas.</li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-              </li>
-            </ul>
-          </div>
-
-          <!--Company 2-->
-
-          <div>
-            <h4 class="Company">Economist <span class="Company_orange">Logistic forklift</span></h4>
-            <span class="Date">September 2013 - July 2017 <span class="stick">|</span> Ukraine</span>
-            <ul class="about_me_many_text_2">
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod labore et dolore magna aliqua.
-              </li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
-            </ul>
-          </div>
-
-          <!--Company 3-->
-
-          <div>
-            <h4 class="Company">Economist <span class="Company_orange">Alef</span></h4>
-            <span class="Date">November 2006 - May 2013 <span class="stick">|</span> Ukraine</span>
-            <ul class="about_me_many_text_2">
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!--- Education conteiner -->
-
-        <div>
-          <h3 class="projects_word">Education</h3>
-          <h4 class="Company_orange">Dnipro National Metallurgical Academy of Ukraine</h4>
-          <h5 class="for_word_frontent">Ecologist</h5>
-          <span class="Date">Septermber 2006 - June 2012 <span class="stick">|</span> Ukraine</span>
+          <span class="contacts_link-type">E:</span>
+          <a class="contacts_link" href="mailto:inna12018@i.ua"><span class="underline">inna12018@i.ua</span></a>
         </div>
       </div>
+
+      <!--- Tech skills container -->
+
+      <div class="tech_skills_container">
+        <h3 class="tech_skills_title">Tech skills</h3>
+
+        <ul>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">HTML5</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">CSS3</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">GIT</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">WebPack</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">JavaScript</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">Node.js</span></li>
+        </ul>
+      </div>
+
+      <!--- Soft skills container -->
+
+      <div class="tech_skills_container">
+        <h3 class="tech_skills_title">Soft Skills</h3>
+
+        <ul>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">Willingness to learn</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">Organization</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">Creativity</span></li>
+          <li class="tech_skills_item">
+            <span class="word_tech_skills">Teamwork</span></li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!--- about me container -->
+
+    <div class="about_me_container">
+
+      <!--- about me main info -->
+
+      <div>
+        <h2 class="for_word_frontent">Junior HTML - coder</h2>
+        <h1 class="for_word_Me">Inna Drabchuk</h1>
+        <p class="about_me_many_text">
+          I am an organized, honest, responsible hard working person. I am a capable, adaptable and a flexible person
+          who is looking forward to learn new working skills
+        </p>
+      </div>
+
+      <!--- projects container -->
+
+      <div>
+        <h3 class="projects_word">Projects</h3>
+        <p class="projects_type">Landing page </p>
+        <ol class="numbers">
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/Tesla_project/">Tesla</a>
+          </li>
+
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/HTML_COURSE/">KIDS Care</a>
+          </li>
+
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/go-surf/app/index.html">Go-surf</a>
+          </li>
+
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/PROJECT4/#">JETRO</a>
+          </li>
+
+        </ol>
+
+        <p class="projects_type">Internet store</p>
+        <ol class="numbers">
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/index/">Moderno</a>
+          </li>
+
+        </ol>
+
+        <p class="projects_type">JS GAME</p>
+        <ol class="numbers">
+          <li>
+            <a class="project__link" href="https://inna12018.github.io/snakeJsGame/">SnakeJsGame</a>
+          </li>
+
+        </ol>
+
+
+      </div>
+
+
+
+
+      <!--- Work experience conteiner -->
+
+      <div>
+        <h3 class="projects_word">Work Experience</h3>
+
+        <!--Company 1-->
+
+        <div>
+          <h4 class="Company">Economist <span class="Company_orange">Alef</span></h4>
+          <span class="Date">October 2018 - up to now <span class="stick">|</span> Ukraine</span>
+          <ul class="about_me_many_text_2">
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Risus commodo viverra maecenas.</li>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </li>
+          </ul>
+        </div>
+
+        <!--Company 2-->
+
+        <div>
+          <h4 class="Company">Economist <span class="Company_orange">Logistic forklift</span></h4>
+          <span class="Date">September 2013 - July 2017 <span class="stick">|</span> Ukraine</span>
+          <ul class="about_me_many_text_2">
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod labore et dolore magna aliqua.
+            </li>
+            <li>Quis ipsum suspendisse ultrices gravida.</li>
+            <li>Risus commodo viverra maecenas.</li>
+          </ul>
+        </div>
+
+        <!--Company 3-->
+
+        <div>
+          <h4 class="Company">Economist <span class="Company_orange">Alef</span></h4>
+          <span class="Date">November 2006 - May 2013 <span class="stick">|</span> Ukraine</span>
+          <ul class="about_me_many_text_2">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Quis ipsum suspendisse ultrices gravida.</li>
+            <li>Risus commodo viverra maecenas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--- Education conteiner -->
+
+      <div>
+        <h3 class="projects_word">Education</h3>
+        <h4 class="Company_orange"> * Dnipro National Metallurgical Academy of Ukraine</h4>
+        <h5 class="for_word_frontent">Ecologist</h5>
+      </div>
+
+      <section class="education">
+        <div class="container">
+          <div class="certifications">Certifications</div>
+          <div class="certifications__inner">
+
+            <div class="certifications__item">
+            <a data-fancybox="gallery" href="images/study-1.jpg">
+              <img src="images/study-small-1.jpg">
+          </a>
+        </div>
+
+        <div class="certifications__item-2">
+          <a data-fancybox="gallery" href="images/study-2.jpg">
+              <img src="images/study-small-2.jpg">
+          </a>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
     </div>
-  </body>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/path/to/jquery.fancybox.min.js"></script>
+
 </html>
