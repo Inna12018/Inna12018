@@ -224,15 +224,18 @@
     margin-bottom: 10px;
     font-weight: 700;
     color: #f5680a;
+    margin-top: 10px;
   }
 
   .certifications__inner {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
   }
 
   .certifications__item img {
     max-width: 200px;
+    
 
   }
 
@@ -255,5 +258,9 @@
   }
 
   .certifications__link p {
+    font-weight: 400;
+  }
+
+  .skils {
     font-weight: 400;
   }
